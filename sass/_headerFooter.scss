@@ -32,7 +32,7 @@
   text-decoration: none;
 }
 
-@include mq(768px) {
+@include mqWH(992px, 1762px) {
   .header {
     font-size: 1rem;
   }
@@ -41,7 +41,7 @@
   }
 }
 
-@include mq(1024px) {
+@include mq(768px) {
   .title-break {
     display: none;
   }
